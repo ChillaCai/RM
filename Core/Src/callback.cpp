@@ -16,12 +16,11 @@ extern const uint8_t tx_size;
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
   if (huart == &huart6){
     tx_buff[tail] = rx_buff[0];
-    tail = (tail + 1) % tx_size;
 
-    HAL_UART_Receive_IT(&huart6, rx_buff, 1);
+    HAL_UART_Receive_DMA(&huart6, rx_buff, 1);
   }
 }
 
-void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
-  tx_flag = 0;
-}
+//void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
+//  tx_flag = 0;
+//}

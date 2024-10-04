@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/uart.elf.dir/Core/Src/callback.cpp.obj"
   "CMakeFiles/uart.elf.dir/Core/Src/callback.cpp.obj.d"
+  "CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj"
+  "CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj.d"
   "CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj.d"
   "CMakeFiles/uart.elf.dir/Core/Src/main.c.obj"
