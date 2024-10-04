@@ -58,6 +58,11 @@ void SystemClock_Config(void);
 /* USER CODE BEGIN 0 */
 uint8_t tx_buff[8];
 uint8_t rx_buff[8];
+volatile uint8_t tx_flag = 0;
+volatile uint8_t rx_flag = 0;
+volatile uint8_t head = 0;
+volatile uint8_t tail = 0;
+const uint8_t tx_size = 8;
 
 /* USER CODE END 0 */
 
@@ -102,7 +107,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_UART_Transmit_IT(&huart6, tx_buff, sizeof(tx_buff));
+    if (head != tail && !tx_flag){
+      HAL_UART_Transmit_IT(&huart6, &tx_buff[head], 1);
+      tx_flag = 1;
+      head = (head + 1) % tx_size;
+    }
 
     /* USER CODE END WHILE */
 
