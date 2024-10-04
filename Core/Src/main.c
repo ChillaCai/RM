@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -34,7 +33,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -56,13 +54,11 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t tx_buff[8];
-uint8_t rx_buff[8];
+uint8_t tx_buff[BUFFSIZE];
+uint8_t rx_buff[BUFFSIZE];
 volatile uint8_t tx_flag = 0;
-volatile uint8_t rx_flag = 0;
 volatile uint8_t head = 0;
 volatile uint8_t tail = 0;
-const uint8_t tx_size = 8;
 
 /* USER CODE END 0 */
 
@@ -95,24 +91,34 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_TIM1_Init();
-  MX_TIM6_Init();
   MX_USART6_UART_Init();
-  HAL_UART_Receive_IT(&huart6, rx_buff, 1);
   /* USER CODE BEGIN 2 */
-
+  HAL_UART_Receive_IT(&huart6, rx_buff, 1);
+  HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    if (head != tail && !tx_flag){
-      HAL_UART_Transmit_IT(&huart6, &tx_buff[head], 1);
-      tx_flag = 1;
-      head = (head + 1) % tx_size;
+    if (!tx_flag) {
+      if (head != tail) {
+        HAL_UART_Transmit_IT(&huart6, &tx_buff[head], 1);
+        HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_RESET);
+        tx_flag = 1;
+        head = (head + 1) % BUFFSIZE;
+      }
+      else{
+        HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_SET);
+      }
     }
 
+    if (rx_buff[0] != '\n' && rx_buff[0] != NULL){
+      HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_RESET);
+    }
+    else {
+      HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

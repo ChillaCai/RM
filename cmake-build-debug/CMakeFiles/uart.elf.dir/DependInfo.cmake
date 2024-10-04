@@ -30,6 +30,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/chill/Desktop/uart/Core/Src/dma.c" "CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj.d"
   "C:/Users/chill/Desktop/uart/Core/Src/gpio.c" "CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj.d"
   "C:/Users/chill/Desktop/uart/Core/Src/main.c" "CMakeFiles/uart.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/main.c.obj.d"
   "C:/Users/chill/Desktop/uart/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
@@ -37,7 +38,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/chill/Desktop/uart/Core/Src/syscalls.c" "CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj.d"
   "C:/Users/chill/Desktop/uart/Core/Src/sysmem.c" "CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj.d"
   "C:/Users/chill/Desktop/uart/Core/Src/system_stm32f4xx.c" "CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj.d"
-  "C:/Users/chill/Desktop/uart/Core/Src/tim.c" "CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj.d"
   "C:/Users/chill/Desktop/uart/Core/Src/usart.c" "CMakeFiles/uart.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Core/Src/usart.c.obj.d"
   "C:/Users/chill/Desktop/uart/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "CMakeFiles/uart.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "C:/Users/chill/Desktop/uart/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "CMakeFiles/uart.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" "gcc" "CMakeFiles/uart.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d"

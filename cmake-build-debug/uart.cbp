@@ -108,6 +108,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/chill/Desktop/uart/Core/Inc/dma.h">
+			<Option target="uart.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Core/Inc/gpio.h">
 			<Option target="uart.elf"/>
 		</Unit>
@@ -120,13 +123,13 @@
 		<Unit filename="C:/Users/chill/Desktop/uart/Core/Inc/stm32f4xx_it.h">
 			<Option target="uart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/chill/Desktop/uart/Core/Inc/tim.h">
-			<Option target="uart.elf"/>
-		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Core/Inc/usart.h">
 			<Option target="uart.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Core/Src/callback.cpp">
+			<Option target="uart.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chill/Desktop/uart/Core/Src/dma.c">
 			<Option target="uart.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Core/Src/gpio.c">
@@ -148,9 +151,6 @@
 			<Option target="uart.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Core/Src/system_stm32f4xx.c">
-			<Option target="uart.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/chill/Desktop/uart/Core/Src/tim.c">
 			<Option target="uart.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Core/Src/usart.c">
@@ -343,9 +343,6 @@
 			<Option target="uart.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
-			<Option target="uart.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/chill/Desktop/uart/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
 			<Option target="uart.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/chill/Desktop/uart/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">

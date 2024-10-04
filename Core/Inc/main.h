@@ -66,7 +66,7 @@ void Error_Handler(void);
 #define LED_G_GPIO_Port GPIOF
 
 /* USER CODE BEGIN Private defines */
-
+#define BUFFSIZE 32
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

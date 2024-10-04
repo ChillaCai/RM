@@ -82,10 +82,24 @@ CMakeFiles/uart.elf.dir/Core/Src/callback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uart.elf.dir/Core/Src/callback.cpp.s"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chill\Desktop\uart\Core\Src\callback.cpp -o CMakeFiles\uart.elf.dir\Core\Src\callback.cpp.s
 
+CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj: CMakeFiles/uart.elf.dir/flags.make
+CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj: C:/Users/chill/Desktop/uart/Core/Src/dma.c
+CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj"
+	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\dma.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\dma.c
+
+CMakeFiles/uart.elf.dir/Core/Src/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uart.elf.dir/Core/Src/dma.c.i"
+	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\chill\Desktop\uart\Core\Src\dma.c > CMakeFiles\uart.elf.dir\Core\Src\dma.c.i
+
+CMakeFiles/uart.elf.dir/Core/Src/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uart.elf.dir/Core/Src/dma.c.s"
+	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\chill\Desktop\uart\Core\Src\dma.c -o CMakeFiles\uart.elf.dir\Core\Src\dma.c.s
+
 CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj: C:/Users/chill/Desktop/uart/Core/Src/gpio.c
 CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\gpio.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\gpio.c
 
 CMakeFiles/uart.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/uart.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/uart.elf.dir/Core/Src/main.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/main.c.obj: C:/Users/chill/Desktop/uart/Core/Src/main.c
 CMakeFiles/uart.elf.dir/Core/Src/main.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/uart.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/uart.elf.dir/Core/Src/main.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\main.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\main.c
 
 CMakeFiles/uart.elf.dir/Core/Src/main.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/uart.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/Users/chill/Desktop/uart/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/Users/chill/Desktop/uart/Core/Src/stm32f4xx_it.c
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\stm32f4xx_it.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj: C:/Users/chill/Desktop/uart/Core/Src/syscalls.c
 CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\syscalls.c
 
 CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj: C:/Users/chill/Desktop/uart/Core/Src/sysmem.c
 CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\sysmem.c
 
 CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj: C:/Users/chill/Desktop/uart/Core/Src/system_stm32f4xx.c
 CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\system_stm32f4xx.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -179,20 +193,6 @@ CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.s"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\chill\Desktop\uart\Core\Src\system_stm32f4xx.c -o CMakeFiles\uart.elf.dir\Core\Src\system_stm32f4xx.c.s
-
-CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj: CMakeFiles/uart.elf.dir/flags.make
-CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj: C:/Users/chill/Desktop/uart/Core/Src/tim.c
-CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj: CMakeFiles/uart.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj"
-	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\uart.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\uart.elf.dir\Core\Src\tim.c.obj -c C:\Users\chill\Desktop\uart\Core\Src\tim.c
-
-CMakeFiles/uart.elf.dir/Core/Src/tim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uart.elf.dir/Core/Src/tim.c.i"
-	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\chill\Desktop\uart\Core\Src\tim.c > CMakeFiles\uart.elf.dir\Core\Src\tim.c.i
-
-CMakeFiles/uart.elf.dir/Core/Src/tim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uart.elf.dir/Core/Src/tim.c.s"
-	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\chill\Desktop\uart\Core\Src\tim.c -o CMakeFiles\uart.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/uart.elf.dir/Core/Src/usart.c.obj: CMakeFiles/uart.elf.dir/flags.make
 CMakeFiles/uart.elf.dir/Core/Src/usart.c.obj: C:/Users/chill/Desktop/uart/Core/Src/usart.c
@@ -448,6 +448,7 @@ CMakeFiles/uart.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 # Object files for target uart.elf
 uart_elf_OBJECTS = \
 "CMakeFiles/uart.elf.dir/Core/Src/callback.cpp.obj" \
+"CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/uart.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
@@ -455,7 +456,6 @@ uart_elf_OBJECTS = \
 "CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
-"CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/uart.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/uart.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj" \
 "CMakeFiles/uart.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
@@ -479,6 +479,7 @@ uart_elf_OBJECTS = \
 uart_elf_EXTERNAL_OBJECTS =
 
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/callback.cpp.obj
+uart.elf: CMakeFiles/uart.elf.dir/Core/Src/dma.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/gpio.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/main.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -486,7 +487,6 @@ uart.elf: CMakeFiles/uart.elf.dir/Core/Src/stm32f4xx_it.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/syscalls.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/sysmem.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/system_stm32f4xx.c.obj
-uart.elf: CMakeFiles/uart.elf.dir/Core/Src/tim.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Src/usart.c.obj
 uart.elf: CMakeFiles/uart.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj
 uart.elf: CMakeFiles/uart.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
