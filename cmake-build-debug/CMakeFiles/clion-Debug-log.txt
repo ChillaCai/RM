@@ -14,6 +14,6 @@ C:\Users\chill\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCM
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.9s)
+-- Configuring done (3.3s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/chill/Desktop/uart/cmake-build-debug

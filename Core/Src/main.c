@@ -19,7 +19,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "dma.h"
-#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -57,8 +56,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t tx_buff[8];
-uint8_t rx_buff[8];
+// uint8_t tx_buff[8];
+uint8_t rx_buff[80];
 volatile uint8_t tx_flag = 0;
 volatile uint8_t rx_flag = 0;
 volatile uint8_t head = 0;
@@ -97,17 +96,15 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_TIM1_Init();
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_DMA(&huart6, rx_buff, 1);
+  HAL_UARTEx_ReceiveToIdle_DMA(&huart6, rx_buff, sizeof(rx_buff));
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_UART_Transmit_DMA(&huart6, &tx_buff[head], 1);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
