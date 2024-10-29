@@ -4,7 +4,7 @@
 #include "main.h"
 #include "usart.h"
 
-extern uint8_t rx_buff[80];
+extern uint8_t rx_buff[50];
 // extern uint8_t tx_buff[8];
 extern volatile uint8_t tx_flag;
 extern volatile uint8_t rx_flag;
