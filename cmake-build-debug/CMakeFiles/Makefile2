@@ -53,10 +53,10 @@ RM = C:\Users\chill\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\chill\Desktop\uart
+CMAKE_SOURCE_DIR = D:\CLionProjects\RM1003_UART
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\chill\Desktop\uart\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CLionProjects\RM1003_UART\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/uart.elf.dir/clean
 CMakeFiles/uart.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\uart.elf.dir\build.make CMakeFiles/uart.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\uart.elf.dir\build.make CMakeFiles/uart.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target uart.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\RM1003_UART\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target uart.elf"
 .PHONY : CMakeFiles/uart.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uart.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\RM1003_UART\cmake-build-debug\CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/uart.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chill\Desktop\uart\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\RM1003_UART\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/uart.elf.dir/rule
 
 # Convenience name for target.
